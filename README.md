@@ -39,15 +39,23 @@ Vision Transformer (ViT-B_16) - Pre-trained with weights5
 ResNet18 - Pre-trained with weights6
 
 Custom Vision Transformer (ViT)
+
 A custom ViT model is built from scratch based on research papers, designed to handle the complexity of CT scan images for accurate classification.
 
 Training Setup
+
 Environment
+
 Python Version: 3.x
+
 PyTorch: 1.12+ or 2.x
+
 Torchvision: 0.13+
+
 CUDA: 11.x (if using GPU)
+
 To ensure compatibility with updated APIs, you may use the following script for installing/updating the correct versions of PyTorch and Torchvision:
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 try:
     import torch
@@ -66,18 +74,32 @@ except:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Training Details
+
 Batch size: 32
+
 Optimizer: AdamW
+
 Loss Function: CrossEntropyLoss
+
 Learning rate: 0.0001
+
 Scheduler: CosineAnnealingLR
+
 Each model was fine-tuned for 10 epochs, with early stopping to prevent overfitting.
 
 Results
+
 Model	         Accuracy
+
 DenseNet121	 XX.X%
+
 ResNet50	 XX.X%
+
 Swin Transformer XX.X%
+
 VGG11            XX.X%
+
 ViT-B_16	 XX.X%
+
 ResNet18	 XX.X%
+
