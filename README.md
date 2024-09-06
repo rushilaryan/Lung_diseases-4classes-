@@ -11,8 +11,8 @@ This project implements a custom-built Vision Transformer (ViT) model based on r
 Dataset
 The dataset used is from Kaggle and contains labeled lung CT scans for classification.
 
-Dataset Link
-Kaggle Chest CT Scan Images
+[Dataset Link](https://www.google.com/url?q=http%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fmohamedhanyyy%2Fchest-ctscan-images)
+
 
 Models Used
 We use six pre-trained models for transfer learning and a custom Vision Transformer (ViT):
