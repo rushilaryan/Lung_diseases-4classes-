@@ -88,18 +88,11 @@ Scheduler: CosineAnnealingLR
 Each model was fine-tuned for 10 epochs, with early stopping to prevent overfitting.
 
 Results
+![Screenshot 2024-09-07 222511](https://github.com/user-attachments/assets/5a3daff0-a2e1-4cfa-8d8c-7d8747852436)
 
-Model	         Accuracy
 
-DenseNet121	 XX.X%
+![Screenshot 2024-09-07 222527](https://github.com/user-attachments/assets/785d2a60-c3ea-4e70-abf3-78ba9800fecb)
 
-ResNet50	 XX.X%
 
-Swin Transformer XX.X%
 
-VGG11            XX.X%
-
-ViT-B_16	 XX.X%
-
-ResNet18	 XX.X%
 
